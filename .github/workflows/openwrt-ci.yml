@@ -12,11 +12,12 @@ name: OpenWrt-CI-first
 on:
   #schedule:
   #  - cron: 0 20 * * *
-  push:
-    tags:
-      - '*'
   watch:
     types: [started]
+  push:
+    branches: 
+      - master
+
 
 jobs:
 
