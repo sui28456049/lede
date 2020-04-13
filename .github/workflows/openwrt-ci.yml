@@ -82,7 +82,7 @@ jobs:
           CONFIG_V2RAY_JSON_INTERNAL=y
           EOF
           ######################### MY SUI CONFIG ####################
-         d
+          make defconfig
 
       - name: Make download
         run: |
